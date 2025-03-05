@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+.content {
+    display: flex;
+    align-content: flex-start;
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+.left {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid yellow; /* Yellow border */
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+
+.right {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid yellow; /* Yellow border */
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+
+.left {
+    border: 3px solid yellow; /* Yellow border */
+}
+.right {
+    border: 3px solid purple; /* Purple border */
+
+}
+.bottomleft {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid yellow; 
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.bottomright {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid yellow; 
+    flex-direction: column; 
+    justify-content: flex-end;
+
+}
+.bottomright {
+    border: 3px solid yellow;
+}
+.bottomleft {
+    border: 3px solid purple;
+
+}
+.content section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.content section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.content img {
+     max-width: 50;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px; 
+}
